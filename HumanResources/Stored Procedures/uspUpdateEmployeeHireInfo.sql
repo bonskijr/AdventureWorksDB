@@ -1,5 +1,4 @@
-﻿
-CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeHireInfo]
+﻿CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeHireInfo]
     @BusinessEntityID [int], 
     @JobTitle [nvarchar](50), 
     @HireDate [datetime], 
